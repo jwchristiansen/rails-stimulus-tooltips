@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+
+#tooltip-1--trigger:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.tippy-box[data-theme~='info'] {
+  background-color: #c5c5c5;
+  color: #555555;
+  padding: 5px 8px;
+  border-radius: 2px;
+}
+
+.tippy-box #tooltip-1 {
+  width: 200px;
+  height: 100px;
+}
+
+
+button.close-tooltip {
+  margin-top: 10px;
+}
+
+
